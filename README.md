@@ -1,5 +1,5 @@
 ## Live Demo
-Check out the live app here: [Launch App](https://vercel.com/hello-world-d43f/proximo/7YMkxmNU7Rwq364pt5VofRNKvUcj)
+Check out the live app here: [Launch App](https://proximo-needl0pd4-hello-world-d43f.vercel.app/)
 
 
 # 🪐 Proximo — Smart Academic Companion
