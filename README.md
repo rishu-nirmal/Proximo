@@ -7,51 +7,6 @@ Proximo is a mobile-first, responsive academic study planner and balanced-focus 
 
 ---
 
-## 🚀 Pushing to your GitHub Repo (`Proximo`) & Deploying on Vercel
-
-### Step 1: Connect to your GitHub repository
-In your terminal / PowerShell, navigate to this project folder and run:
-
-```powershell
-cd "C:\Users\Rishabh Nirmal\.gemini\antigravity\scratch\studyorbit"
-
-# 1. Add your GitHub Proximo repository as origin:
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/Proximo.git
-
-# 2. Ensure default branch is main:
-git branch -M main
-
-# 3. Push your code to GitHub:
-git push -u origin main
-```
-*(If you already added a README on GitHub when creating the repo, run `git pull origin main --rebase` before `git push -u origin main`)*
-
----
-
-### Step 2: Deploy on Vercel (1-Click)
-
-1. Go to [vercel.com/new](https://vercel.com/new) and log in.
-2. Under **"Import Git Repository"**, select **`Proximo`**.
-3. Leave all build settings as default (Framework Preset: **Other**, Root Directory: `./`).
-4. Click **Deploy**.
-5. Within 20 seconds, your site is live with a fast HTTPS URL (e.g., `https://proximo-srmap.vercel.app`)!
-
----
-
-### Step 3: Install Proximo on Your Mobile Phone (PWA)
-
-* **On iPhone (Safari)**:
-  1. Open your Vercel URL in Safari.
-  2. Tap the **Share** button (box with upward arrow).
-  3. Scroll down and tap **"Add to Home Screen"**.
-  4. Tap **"Add"**. Proximo will launch in true fullscreen with its custom celestial icon!
-* **On Android (Chrome / Brave / Edge)**:
-  1. Open your Vercel URL.
-  2. Tap the **three-dots menu (⋮)** in the top right.
-  3. Tap **"Add to Home screen"** or **"Install App"**.
-
----
-
 ## 🌟 Key Features
 
 ### 1. 📋 Custom Student Onboarding Setup Wizard
