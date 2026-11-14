@@ -1,6 +1,6 @@
 {
-  "name": "StudyOrbit - SRM AP Academic Companion",
-  "short_name": "StudyOrbit",
+  "name": "Proximo - SRM AP Academic Companion",
+  "short_name": "Proximo",
   "description": "Smart mobile academic planner and balanced-focus engine for SRM University - AP students.",
   "start_url": "./index.html",
   "scope": "./",

@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Academic Data Store & Curriculum Presets
+ * Proximo - Academic Data Store & Curriculum Presets
  * Supports user onboarding for any year, semester, and branch at SRM AP.
  */
 
@@ -433,8 +433,8 @@ const CURRICULUM_PRESETS = {
 };
 
 // Storage keys
-const STORAGE_KEY = "studyorbit_data_v2";
-const ONBOARDING_KEY = "studyorbit_onboarding_completed";
+const STORAGE_KEY = "proximo_data_v2";
+const ONBOARDING_KEY = "proximo_onboarding_completed";
 
 /**
  * Creates personalized academic data based on user setup inputs
@@ -616,7 +616,7 @@ function createPersonalizedDataset(userInput, selectedSubjects) {
   const notifications = [
     {
       id: "notif-welcome",
-      title: `Welcome to StudyOrbit, ${name.split(" ")[0]}! 🚀`,
+      title: `Welcome to Proximo, ${name.split(" ")[0]}! 🚀`,
       message: `Your academic companion for ${semName} (${branchName}) is now configured with your ${subjects.length} courses.`,
       type: "info",
       time: "Just now",

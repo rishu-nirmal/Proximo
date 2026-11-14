@@ -1,15 +1,15 @@
-# 🪐 StudyOrbit — Smart Academic Companion
+# 🪐 Proximo — Smart Academic Companion
 
 > **Interactive, Mobile-First Academic Planner with Custom Student Onboarding & Balanced-Focus Engine**  
 > *Designed for SRM University - AP (Amaravati)*
 
-StudyOrbit transforms how engineering students organize their coursework, prepare for examinations, and maintain academic equilibrium. Rather than acting as a static or generic to-do list, StudyOrbit first asks the student for their personal and academic details (Name, Registration Number, Branch, Year, Semester, and Course List), and then tailors all schedules, metrics, and study suggestions directly to them.
+Proximo transforms how engineering students organize their coursework, prepare for examinations, and maintain academic equilibrium. Rather than acting as a static or generic to-do list, Proximo first asks the student for their personal and academic details (Name, Registration Number, Branch, Year, Semester, and Course List), and then tailors all schedules, metrics, and study suggestions directly to them.
 
 ---
 
 ## 🚀 First-Time Interactive Onboarding Setup Wizard
 
-When a user opens the app for the first time, StudyOrbit displays a multi-step setup flow before showing any dashboard data:
+When a user opens the app for the first time, Proximo displays a multi-step setup flow before showing any dashboard data:
 
 1. **Step 1: Student Identity**
    - Full Name (e.g. *Rishabh Nirmal*)
@@ -114,10 +114,10 @@ When a user opens the app for the first time, StudyOrbit displays a multi-step s
 ## 🚀 How to Run
 
 1. **Directly in your Browser**:  
-   Open [index.html](file:///C:/Users/Rishabh%20Nirmal/.gemini/antigravity/scratch/studyorbit/index.html) in Chrome, Edge, Firefox, or Safari.
+   Open [index.html](file:///C:/Users/Rishabh%20Nirmal/.gemini/antigravity/scratch/proximo/index.html) in Chrome, Edge, Firefox, or Safari.
 2. **Via Local Server** (Optional):  
    ```powershell
-   cd "C:\Users\Rishabh Nirmal\.gemini\antigravity\scratch\studyorbit"
+   cd "C:\Users\Rishabh Nirmal\.gemini\antigravity\scratch\proximo"
    python -m http.server 8080
    ```
    Then visit `http://localhost:8080` in your browser.
@@ -126,7 +126,7 @@ When a user opens the app for the first time, StudyOrbit displays a multi-step s
 
 ## 📁 File Structure
 ```
-studyorbit/
+proximo/
 ├── index.html           # SPA with full-screen Onboarding Wizard + all 8 screen views
 ├── css/
 │   └── styles.css       # Complete responsive CSS, glassmorphism, themes & wizard styles

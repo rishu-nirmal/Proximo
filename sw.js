@@ -1,9 +1,9 @@
 /**
- * StudyOrbit - Service Worker
+ * Proximo - Service Worker
  * Enables offline caching, background resilience, and PWA capabilities.
  */
 
-const CACHE_NAME = "studyorbit-cache-v1";
+const CACHE_NAME = "proximo-cache-v1";
 const STATIC_ASSETS = [
   "./",
   "./index.html",

@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Balanced-Focus System Engine
+ * Proximo - Balanced-Focus System Engine
  * Calculates Weekly Balance Score, detects over-focus & neglect,
  * and generates smart "What to Study Next" recommendations.
  */

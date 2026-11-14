@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Pomodoro Focus Timer Module
+ * Proximo - Pomodoro Focus Timer Module
  * Integrated with Web Audio API for sound generation & subject study logging.
  */
 

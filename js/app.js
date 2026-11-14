@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Main Application Coordinator
+ * Proximo - Main Application Coordinator
  * Handles Navigation, Task CRUD, Balance System, Modals, Calendar,
  * and the Interactive Student Onboarding & Curriculum Setup Wizard.
  */
@@ -104,7 +104,7 @@ window.App = {
     if (this.currentWizardStep === 1) {
       const name = (document.getElementById("wiz-name").value || "").trim();
       if (!name) {
-        alert("Please enter your name so StudyOrbit can address you.");
+        alert("Please enter your name so Proximo can address you.");
         return;
       }
     } else if (this.currentWizardStep === 2) {
@@ -1179,9 +1179,9 @@ window.App = {
     }
 
     if (state.isRunning) {
-      document.title = `(${state.formatted}) Focus · StudyOrbit`;
+      document.title = `(${state.formatted}) Focus · Proximo`;
     } else {
-      document.title = "StudyOrbit - SRM AP Academic Companion";
+      document.title = "Proximo - SRM AP Academic Companion";
     }
 
     this.updateHomeTimerWidget();
@@ -1802,7 +1802,7 @@ window.App = {
     const str = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.data, null, 2));
     const dl = document.createElement("a");
     dl.setAttribute("href", str);
-    dl.setAttribute("download", `studyorbit_backup_${new Date().toISOString().slice(0, 10)}.json`);
+    dl.setAttribute("download", `proximo_backup_${new Date().toISOString().slice(0, 10)}.json`);
     dl.click();
   },
 

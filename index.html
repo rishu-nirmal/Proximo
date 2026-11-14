@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <title>StudyOrbit - Smart Academic Companion | SRM AP</title>
+  <title>Proximo - Smart Academic Companion | SRM AP</title>
   <meta name="description" content="Mobile-first academic study planner and balanced-focus engine for SRM AP University students." />
 
   <!-- PWA & Mobile Meta Tags -->
@@ -13,7 +13,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="StudyOrbit" />
+  <meta name="apple-mobile-web-app-title" content="Proximo" />
   <meta name="theme-color" content="#0B0F19" />
 
   <!-- Google Fonts: Inter -->
@@ -39,7 +39,7 @@
       <!-- Header & Brand -->
       <div class="wizard-header">
         <div class="wizard-brand-icon">🪐</div>
-        <h1 class="wizard-title">Welcome to <span class="gradient-text">StudyOrbit</span></h1>
+        <h1 class="wizard-title">Welcome to <span class="gradient-text">Proximo</span></h1>
         <p class="wizard-subtitle">
           Your smart academic companion at SRM University - AP. Let's configure your curriculum before we begin.
         </p>
@@ -228,14 +228,14 @@
         <div class="step-title-wrap">
           <span class="section-label">STEP 4 OF 4</span>
           <h2 class="step-heading">Academic Priorities & Review</h2>
-          <p class="step-desc">Fine-tune your initial focus so StudyOrbit gives you tailored recommendations immediately.</p>
+          <p class="step-desc">Fine-tune your initial focus so Proximo gives you tailored recommendations immediately.</p>
         </div>
 
         <div class="form-group">
           <label class="form-label">Which course needs the most attention or do you find most challenging?</label>
           <select id="wiz-priority-subject" class="input-select"></select>
           <span style="font-size: 0.72rem; color: var(--text-muted); display: block; margin-top: 4px;">
-            StudyOrbit's Balanced-Focus Engine will prioritize reminders and study sprints for this course.
+            Proximo's Balanced-Focus Engine will prioritize reminders and study sprints for this course.
           </span>
         </div>
 
@@ -287,7 +287,7 @@
       <div class="brand-group" style="margin-bottom: 24px;">
         <div class="brand-logo-icon">🪐</div>
         <div class="brand-text">
-          <h1>StudyOrbit</h1>
+          <h1>Proximo</h1>
           <span class="brand-tagline" id="sidebar-branch-tag">SRM AP</span>
         </div>
       </div>
@@ -330,7 +330,7 @@
         <div class="brand-group">
           <div class="brand-logo-icon">🪐</div>
           <div class="brand-text">
-            <h1>StudyOrbit</h1>
+            <h1>Proximo</h1>
             <span class="brand-tagline" id="header-branch-tag">SRM AP</span>
           </div>
         </div>
@@ -705,7 +705,7 @@
             <span class="section-label">MOBILE ALARM & NOTIFICATIONS</span>
             <h4 style="margin-bottom: 8px;">Task Alarms & Push Alerts</h4>
             <p class="text-muted" style="font-size: 0.82rem; margin-bottom: 14px;">
-              StudyOrbit rings audio alarms and vibrates your phone when a task is due soon or overdue, with instant dismiss or snooze options.
+              Proximo rings audio alarms and vibrates your phone when a task is due soon or overdue, with instant dismiss or snooze options.
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 10px;">
               <button class="btn btn-primary btn-sm" onclick="AlarmManager.testAlarmNow()">
@@ -959,7 +959,7 @@
             Many students over-focus on their favorite subject while accidentally neglecting other critical courses until the night before the exam.
           </p>
           <p style="margin-bottom: 10px;">
-            <strong>StudyOrbit calculates your Balance Score (0-100)</strong> by comparing your logged study hours against each course's credit weight:
+            <strong>Proximo calculates your Balance Score (0-100)</strong> by comparing your logged study hours against each course's credit weight:
           </p>
           <ul style="padding-left: 20px; margin-bottom: 12px;">
             <li><strong>85 - 100 (Harmonious Orbit):</strong> Effort is evenly distributed across all courses.</li>
@@ -1023,7 +1023,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js').then((reg) => {
-          console.log('StudyOrbit ServiceWorker registered with scope:', reg.scope);
+          console.log('Proximo ServiceWorker registered with scope:', reg.scope);
         }).catch((err) => {
           console.warn('ServiceWorker registration error:', err);
         });

@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Task Alarm & Smart Notification Engine
+ * Proximo - Task Alarm & Smart Notification Engine
  * Provides Web Audio synthesizer alarms, device vibration, native notifications,
  * and an interactive dismiss/snooze alarm modal for mobile phones and desktops.
  */
@@ -135,8 +135,8 @@ const AlarmManager = {
     // 2. Fire native system notification if granted
     if ("Notification" in window && Notification.permission === "granted" && task) {
       try {
-        new Notification(reasonTitle || `StudyOrbit Reminder: ${task.title}`, {
-          body: `${reasonDetail || 'Due soon!'} Check it out on StudyOrbit.`,
+        new Notification(reasonTitle || `Proximo Reminder: ${task.title}`, {
+          body: `${reasonDetail || 'Due soon!'} Check it out on Proximo.`,
           icon: "icon-192.png",
           tag: `task-${task.id}`,
           requireInteraction: true

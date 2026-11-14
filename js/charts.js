@@ -1,5 +1,5 @@
 /**
- * StudyOrbit - Interactive Analytics & Charts Module
+ * Proximo - Interactive Analytics & Charts Module
  * Powered by Chart.js with responsive SVG fallbacks for offline reliability.
  */
 
