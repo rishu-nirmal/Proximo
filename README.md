@@ -1,3 +1,7 @@
+## Live Demo
+Check out the live app here: [Launch App](https://vercel.com/hello-world-d43f/proximo/7YMkxmNU7Rwq364pt5VofRNKvUcj)
+
+
 # 🪐 Proximo — Smart Academic Companion
 
 > **"Proximo" (Latin for *Next*) — Know what to study next, stay in balance, and never miss a deadline.**  
